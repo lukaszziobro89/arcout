@@ -19,7 +19,3 @@ class Pracownik:
     def podajNumberTelefonu(self):
         print("{} to mój numer telefonu.".format(self.telefon))
 
-Kasia = Pracownik("Kasia", "Grzywacz", 123456789)
-
-Kasia.przywitaj()
-Kasia.podajNumberTelefonu()
